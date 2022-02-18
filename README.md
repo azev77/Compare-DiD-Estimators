@@ -1,6 +1,6 @@
 # Compare-DiD-Estimators
 
-**Case**: staggered treatments, homogenous (constant) TEs. (100 units, 15 time periods)
+**[Case](https://github.com/azev77/Compare-DiD-Estimators/blob/main/StaggeredTreatment_SameTE.do)**: staggered treatments, homogenous (constant) TEs. (100 units, 15 time periods)
 - "Cohort 1": 35 units are treated once at t=7,  constant ATT(g=1,K)=49 for K=0-8 periods after the treatment (t=7-15)
 - "Cohort 2": 35 units are treated once at t=11, constant ATT(g=2,K)=49 for K=0-4 periods after the treatment (t=11-15)
 - 30 units are never treated
@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/7883904/154598584-d81ba073-ae4d-40f0-b43e-5bd4930679b2.png)
 
 
-**Case**: staggered treatments, heterogenous (constant) TEs. (100 units, 15 time periods)
+**[Case](https://github.com/azev77/Compare-DiD-Estimators/blob/main/StaggeredTreatment_DiffTE.do)**: staggered treatments, heterogenous (constant) TEs. (100 units, 15 time periods)
 - "Cohort 1": 35 units are treated once at t=7,  constant ATT(g=1,K)=20 for K=0-8 periods after the treatment (t=7-15)
 - "Cohort 2": 35 units are treated once at t=11, constant ATT(g=2,K)=40 for K=0-4 periods after the treatment (t=11-15)
 - 30 units are never treated
